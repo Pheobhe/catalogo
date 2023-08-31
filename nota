@@ -9,3 +9,4 @@ que lea y entienda sass, o sea nuestros archivos de scss en nuestra carpeta scss
 ya que solo entiende vue y js
 para eso creamos un archivo vue.config.js que es donde agregamos conf extra que no se encuentra 
 en nuestro proyecto.
+seguir con video 83
