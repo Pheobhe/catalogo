@@ -1,2 +1,11 @@
 herramienta para agilizar el diseño de las pantallas: Foundation
 Link del Foundation: https://get.foundation/
+
+ahora se centraliza todo en la carpeta scss, y se configura en _config.scss
+
+
+Es en este archivo en donde le vamos a indicar a todo nuestro entorno de desarrollo
+que lea y entienda sass, o sea nuestros archivos de scss en nuestra carpeta scss, 
+ya que solo entiende vue y js
+para eso creamos un archivo vue.config.js que es donde agregamos conf extra que no se encuentra 
+en nuestro proyecto.

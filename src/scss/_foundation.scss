@@ -106,12 +106,12 @@ select {
   text-transform: none;
 }
 
-button,
+ /* button,
 [type=button],
 [type=reset],
 [type=submit] {
-  -webkit-appearance: button;
-}
+ -webkit-appearance: button; 
+}*/
 
 button::-moz-focus-inner,
 [type=button]::-moz-focus-inner,
@@ -163,7 +163,7 @@ textarea {
 }
 
 [type=search] {
-  -webkit-appearance: textfield;
+  /* -webkit-appearance: textfield; */
   outline-offset: -2px;
 }
 
@@ -204,7 +204,7 @@ template {
 
 [draggable=false] {
   -webkit-touch-callout: none;
-  -webkit-user-select: none;
+  /* -webkit-user-select: none; */
 }
 
 .foundation-mq {
@@ -3287,7 +3287,7 @@ ul.no-bullet, ol.no-bullet {
   transition: background-color 0.25s ease-out, color 0.25s ease-out;
   font-family: inherit;
   font-size: 0.9rem;
-  -webkit-appearance: none;
+  /* -webkit-appearance: none; */
   line-height: 1;
   text-align: center;
   cursor: pointer;
@@ -3465,7 +3465,7 @@ ul.no-bullet, ol.no-bullet {
   position: relative;
   top: 0.4em;
   display: inline-block;
-  float: right;
+  /* float: right; */
   margin-left: 1em;
 }
 .button.dropdown.hollow::after, .button.dropdown.clear::after {
@@ -4940,7 +4940,7 @@ select:not([multiple]) {
   border-left-width: 0;
   border-color: transparent #1779ba transparent transparent;
   display: inline-block;
-  vertical-align: middle;
+  /* vertical-align: middle; */
   margin-right: 0.75rem;
 }
 

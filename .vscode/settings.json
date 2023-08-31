@@ -1,3 +1,15 @@
 {
-    "git.ignoreLimitWarning": true
+    "git.ignoreLimitWarning": true,
+    "cSpell.words": [
+        "autohiding",
+        "callout",
+        "drilldown",
+        "github",
+        "motionui",
+        "necolas",
+        "whatinput",
+        "whatintent",
+        "xlarge",
+        "xxlarge"
+    ]
 }
