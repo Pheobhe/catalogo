@@ -2,14 +2,15 @@
     <div class="banner">
         <img 
         class="banner__img"
-        src="../../assets/fondo.png" alt="">
+        src="../../assets/fondo.png"
+        >
         <h1 class="banner__title">Bienvenidos a mi tienda de practicas</h1>
-<div class="banner__copy">
-            <p class="nabber__copy__text">
-                En esta es una pequeña app web podre ver el catalogo de productos y practicar con vue router,
-                ciclo de vidad e un componente y cargar datos desde un servidor.
-            </p>
-        </div>
+            <div class="banner__copy">
+                <p class="nabber__copy__text">
+                    En esta es una pequeña app web podre ver el catalogo de productos y practicar con vue router,
+                    ciclo de vidad de un componente y cargar datos desde un servidor.
+                </p>
+            </div>
     </div>
 </template>
 
@@ -29,16 +30,38 @@
             // cuando el tamaño de la pantalla quiero que cambie de acuerdo al dispo
            @include desde($medium){
                 height: 300px;
-           };
+            }
+
            @include desde($large){
             height: 550px;
-            };
+            }
             @include desde($extra-large){
                 height: 600px;
-            };
-           //@include hasta(720px){
-           // height: 200px;
-           //}
+            }
         }
+        &__title{
+            font-family: $ff-1;
+            color: $color-1;
+        }
+        &__copy{
+            padding: 1em;
+            background: $color-3;
+            @include desde($medium){
+                margin: 2em;
+            }
+            
+            @include desde($large){
+                margin-left: 8em;
+                margin-right: 8em;
+            }
+            
+            
+            &__text{
+            font-size: 12px;
+            font-family: $ff-3;
+            color: $color-4;
+         }
+        }
+        
     }
 </style>
