@@ -6,9 +6,9 @@
         >
         <h1 class="banner__title">Bienvenidos a mi tienda de practicas</h1>
             <div class="banner__copy">
-                <p class="nabber__copy__text">
+                <p class="banner__copy__text">
                     En esta es una pequeña app web podre ver el catalogo de productos y practicar con vue router,
-                    ciclo de vidad de un componente y cargar datos desde un servidor.
+                    ciclo de vida de un componente y cargar datos desde un servidor.
                 </p>
             </div>
     </div>
@@ -27,7 +27,7 @@
         &__img{
             width: 100%;
             height: 200px;
-            // cuando el tamaño de la pantalla quiero que cambie de acuerdo al dispo
+            // cuando el tamaño de la pantalla quiero que cambie de acuerdo al dispositivo
            @include desde($medium){
                 height: 300px;
             }

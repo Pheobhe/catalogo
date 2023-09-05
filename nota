@@ -11,7 +11,7 @@ para eso creamos un archivo vue.config.js que es donde agregamos conf extra que 
 en nuestro proyecto.
 seguir con video 83
 
-Responsive design en calse 84
+Responsive design en clase 84
 ver vuetify para los diseños de los tamaños:
 https://v2.vuetifyjs.com/en/features/breakpoints/
 

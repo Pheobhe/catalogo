@@ -3,13 +3,13 @@
         <a href="#" class="header__logo">Mi Catalogo</a>
         <ul class="header__menu">
             <li class="header__menu__item">
-               <a href="#" class="header__menu__item__link" >
+               <router-link :to="{ name: 'productos'}" class="header__menu__item__link" >
                  Productos
-               </a>
+               </router-link>
             </li>
             <li class="header__menu__item">
                 <a href="#" class="header__menu__item__link" >
-                  Categorias
+                  Categorías
                 </a>
              </li>
         </ul>
