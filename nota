@@ -15,4 +15,4 @@ Responsive design en clase 84
 ver vuetify para los diseños de los tamaños:
 https://v2.vuetifyjs.com/en/features/breakpoints/
 
-seguir en clase 89
+seguir en clase 89: npm install axios: es un paquete que sirve para hacer una peticion al servidor
