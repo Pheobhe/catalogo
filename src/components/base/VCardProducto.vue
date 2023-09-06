@@ -1,9 +1,9 @@
 <template>
     <div class="producto">
         <img
-        src="image"
-        class="producto__img" alt
-        >
+        :src="image"
+        class="producto__img"
+        > 
         <a
         href="#"
         class="producto__name"
@@ -20,7 +20,7 @@
     export default {
         name: 'VCardProducto',
         props :{
-            image: String ,
+            image: String,
             name: String,
             price: Number
 
